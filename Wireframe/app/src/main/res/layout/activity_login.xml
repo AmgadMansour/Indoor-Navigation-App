@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".activity.LoginActivity">
+
+    <com.devspark.robototextview.widget.RobotoTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Log In"
+        android:textSize="24dp" />
+
+    <com.devspark.robototextview.widget.RobotoTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/username_login"
+        android:text="Username"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp" />
+
+    <com.devspark.robototextview.widget.RobotoTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/password_login"
+        android:text="Password"
+        android:textSize="20dp"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/username_login" />
+
+    <com.devspark.robototextview.widget.RobotoEditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username_field"
+        android:layout_below="@+id/username_login"
+        android:layout_alignParentStart="true" />
+
+    <com.devspark.robototextview.widget.RobotoEditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password_field"
+        android:layout_below="@+id/password_login"
+        android:layout_alignParentStart="true"
+        android:password="true" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_btn"
+        android:text="Login"
+        android:background="@color/materialBlue"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/password_field"
+        android:layout_alignEnd="@+id/password_login"
+        android:layout_marginEnd="53dp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signup_btn"
+        android:textColor="@android:color/white"
+        android:text="Sign up"
+        android:background="@color/materialBlue"
+        android:layout_marginStart="48dp"
+        android:layout_alignTop="@+id/login_btn"
+        android:layout_alignStart="@+id/password_login" />
+
+</RelativeLayout>

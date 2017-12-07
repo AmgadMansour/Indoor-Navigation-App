@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Wireframe</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello">Hello World, SuperTango8Activity!</string>
+    <!-- <string name="app_name">Grapher</string> -->
+    <string name="compute_vertex_cover">Compute Vertex Cover</string>
+    <string name="title_activity_nav">Nav</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

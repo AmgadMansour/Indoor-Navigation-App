@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  x_coordinate: 1.5
+  y_coordinate: 1.5
+  map_id_id: 
+
+two:
+  x_coordinate: 1.5
+  y_coordinate: 1.5
+  map_id_id: 

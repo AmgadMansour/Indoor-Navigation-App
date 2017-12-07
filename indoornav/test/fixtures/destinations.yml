@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyText
+  x_coordinate: 1.5
+  y_coordinate: 1.5
+  map_id: 
+
+two:
+  name: MyString
+  description: MyText
+  x_coordinate: 1.5
+  y_coordinate: 1.5
+  map_id: 

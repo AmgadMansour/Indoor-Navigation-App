@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  xmin: 1.5
+  ymin: 1.5
+  xmax: 1.5
+  ymax: 1.5
+
+two:
+  name: MyString
+  xmin: 1.5
+  ymin: 1.5
+  xmax: 1.5
+  ymax: 1.5
