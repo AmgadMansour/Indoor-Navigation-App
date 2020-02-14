@@ -6,3 +6,7 @@ Knowing the locations of each beacon, the location of a user c an be approximate
 backed by a server implemented using Ruby on Rails framework and SQLite database engine. 
 The communication between the two sides is achieved using JSON.
 
+
+![](Screenshot%201.jpg)
+
+
