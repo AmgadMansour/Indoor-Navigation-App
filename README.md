@@ -8,5 +8,8 @@ The communication between the two sides is achieved using JSON.
 
 
 ![](Screenshot%201.jpg)
+![](Screenshot%202.jpg)
+![](Screenshot%203.jpg)
+![](Screenshot%204.jpg)
 
 
